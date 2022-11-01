@@ -1,0 +1,5 @@
+m = open("Myfile.txt", "r")
+s = m.readlines()
+t = len(s)
+print("Number of lines in file is:",t)
+m.close()

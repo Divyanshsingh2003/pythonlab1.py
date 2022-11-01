@@ -1,0 +1,5 @@
+m = open("Myfile.txt","r")
+s = m.read()
+t = len(s)
+print("Size of the file is")
+print(t,"Bytes")

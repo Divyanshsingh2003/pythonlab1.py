@@ -1,0 +1,6 @@
+a = float(input("Enter a real number:"))
+t = int(a)
+r = round(a)
+print(a,"Converted to integer as",t,"and",r)
+r1 = round(a,3)
+print(a,"rounded off to 3 places after decimal is:",r1)
